@@ -1,15 +1,16 @@
-#include <stdio.h>
 #include "main.h"
 /**
- * print_alphabet - secondary function
+ * print_alphabet - main block
  *
  * Description: prints each letter of the alphabet, ending with a newline
  */
 void print_alphabet(void)
 {
-	int i;
-	for (i = 'a'; i <= 'z'; i++)
+	char letter;
 
-		_putchar(i);
-	_putchar('\n');
+	 for (letter = 'a'; letter <= 'z'; letter++)
+	 {
+		  _putchar(letter);
+	 }
+	  _putchar('\n');
 }
